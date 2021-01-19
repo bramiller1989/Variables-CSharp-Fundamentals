@@ -13,6 +13,8 @@ namespace Variables
             var firstName = "Branden";
             var isWorking = true;
 
+            const float Pi = 3.14f;
+
             Console.WriteLine(number);
             Console.WriteLine(count);
             Console.WriteLine(totalPrice);
@@ -20,9 +22,10 @@ namespace Variables
             Console.WriteLine(firstName);
             Console.WriteLine(isWorking);
 
+            Console.WriteLine(Pi);
+
             Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
             Console.WriteLine("{0} {1}", float.MinValue, float.MaxValue);
-
         }
     }
 }
